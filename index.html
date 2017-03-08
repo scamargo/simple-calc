@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Calc</title>
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="description" content="A neat little calculator.">
+
+</head>
+
+<header>
+</header>
+
+<body>
+
+<div class="container">
+	<br>
+	<div class="row">
+	  <div class="col-sm-2"></div>
+	  <div class="display col-sm-8">
+	    <div id='charDisplay'>0</div>
+	    <div id="expression">0</div>
+	  </div>
+	</div>
+	<br>
+	<div class="row">
+	  <div class="col-sm-2"></div>
+	  <div class="col-sm-8 evenly-spaced">
+	  <button class="btn" id="allClear">AC</button>
+	  <button class="btn" id="clearEntry">CE</button>
+	  <button class="btn operation">/</button>
+	  <button class="btn operation">x</button></div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-2"></div>
+	  <div class="col-sm-8 evenly-spaced">
+	  <button class="btn number">7</button>
+	  <button class="btn number">8</button>
+	  <button class="btn number">9</button>
+	  <button class="btn operation">-</button></div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-2"></div>
+	  <div class="col-sm-8 evenly-spaced">
+	  <button class="btn number">4</button>
+	  <button class="btn number">5</button>
+	  <button class="btn number">6</button>
+	  <button class="btn operation">+</button></div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-2"></div>
+	  <div class="col-sm-8 evenly-spaced">
+	  <button class="btn number">1</button>
+	  <button class="btn number">2</button>
+	  <button class="btn number">3</button>
+	  <button class="btn" id="equals">=</button></div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-2"></div>
+	  <div class="col-sm-8 evenly-spaced">
+	  <button class="btn number fat">0</button>
+	  <button class="btn number fat">.</button>
+	  <button style="visibility:hidden"></button>
+	  <button style="visibility:hidden"></button></div>
+	</div>
+</div> <!-- container -->
+
+</body>
+<footer></footer>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="js/calc.js"></script>
+
+
+</html>

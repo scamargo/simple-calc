@@ -1,0 +1,60 @@
+body{
+  background-color: #F95738;
+  color: #083D77;  
+}
+
+button{
+  height: 50px;
+  width: 25%;
+  background-color: #EBEBD3;
+  color: #083D77;
+  border-width: 1px !important;
+  border-color: #083D77 !important;
+  border-radius: 0 !important;
+  padding: .5rem !important;
+}
+
+.display {
+  background-color: #EBEBD3;
+  height: 115px;
+  border-width: 1px;
+  border-style: solid;
+  font-size: 40px;
+  text-align: right;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.evenly-spaced{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0 0 0;
+}
+
+#expression {
+  font-size: 20px;
+}
+
+.number {
+  display: inline-block;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+  button{
+    width: 23%;
+    border-radius: .25rem !important;
+  } 
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
